@@ -24,11 +24,11 @@ body {
   height: 92px;
 }
 
-/* .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: #69B1E4;
     background-color: transparent; //Poweder blue
     font-size: 32px;
-} */
+}
 
 .nav-pills>li>a {
     color: #69B1E4;

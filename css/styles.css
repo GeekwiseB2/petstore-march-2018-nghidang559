@@ -51,3 +51,21 @@ body {
 .thumbnail {
   background-color: orange;
 }
+
+/* testing part */
+.row-height {
+  height: 100px;
+  background-color: black;
+  text-color: white;
+}
+
+.address {
+  font-weight: lighter;
+  text-align: left;
+  space-between: 12px;
+}
+
+.row-height-2 {
+  height: 36px;
+  background-color: black;
+}

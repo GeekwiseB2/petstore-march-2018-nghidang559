@@ -49,7 +49,7 @@ body {
 }
 
 .thumbnail {
-  background-color: orange;
+  background-color: #EDF1F4;
 }
 
 /* testing part */
@@ -68,4 +68,14 @@ body {
 .row-height-2 {
   height: 36px;
   background-color: black;
+}
+
+/* CONTACT US */
+
+.flex-direction {
+  flex-direction: column;
+}
+
+.flex-direction-row {
+  flex-direction: row;
 }

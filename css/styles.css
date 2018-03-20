@@ -50,32 +50,22 @@ body {
 
 .thumbnail {
   background-color: #EDF1F4;
+  padding: 6px 12px;
+  border: none;
 }
 
-/* testing part */
-.row-height {
-  height: 100px;
-  background-color: black;
-  text-color: white;
+/* FOOTER SECTION */
+footer {
+  background-color: #231F20;
 }
+footer .logo {
+  position: relative;
+  left: 5px;
+  }
 
-.address {
-  font-weight: lighter;
-  text-align: left;
-  space-between: 12px;
-}
-
-.row-height-2 {
-  height: 36px;
-  background-color: black;
-}
-
-/* CONTACT US */
-
-.flex-direction {
-  flex-direction: column;
-}
-
-.flex-direction-row {
-  flex-direction: row;
+/* MEDIA QUERIES */
+@media screen and (max-width: 992px) {
+  footer .logo {
+    position: static;
+  }
 }

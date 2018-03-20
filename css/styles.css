@@ -7,7 +7,12 @@ body {
   }
 
 /* HEADER STYLES */
-
+.flex {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .brand {
   font-family: 'Satisfy', cursive;
@@ -41,4 +46,36 @@ body {
   color: #fff;
   font-size: 2em;
   margin-top: 36px;
+}
+
+.thumbnail {
+  background-color: #EDF1F4;
+  padding: 6px 12px;
+  border: none;
+}
+
+/* FOOTER SECTION */
+footer {
+  padding-top: 15px;
+}
+footer, footer a, footer a:hover {
+  background-color: #231F20;
+  color: #B9BABB;
+  text-decoration: none;
+}
+footer .logo {
+  position: relative;
+  left: 5px;
+  }
+
+.middle {
+  border-left: 1px solid #313030;
+  border-right: 2px solid #313030;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 992px) {
+  footer .logo {
+    position: static;
+  }
 }

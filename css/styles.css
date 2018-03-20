@@ -56,12 +56,22 @@ body {
 
 /* FOOTER SECTION */
 footer {
+  padding-top: 45px;
+}
+footer, footer a, footer a:hover {
   background-color: #231F20;
+  color: #B9BABB;
+  text-decoration: none;
 }
 footer .logo {
   position: relative;
   left: 5px;
   }
+
+.middle {
+  border-left: 1px solid #313030;
+  boder-right: 1px solid #313030;
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 992px) {
